@@ -1,20 +1,26 @@
 <template>
   <div id="app">
-    <b-container fluid class="p-0 m-0">
-      <Header></Header>
-      <About></About>
+    <b-container fluid>
+      <b-row class="justify-content-center">
+          <Header></Header>
+        <b-col sm="8" md="8" lg="7" xl="5">
+          <NavComponent></NavComponent>
+          <router-view></router-view>
+<!--          <About></About>-->
+        </b-col>
+      </b-row>
     </b-container>
   </div>
 </template>
 
 <script>
-import About from "./components/About";
 import Header from "./components/Header";
+import NavComponent from "./components/NavComponent";
 
 export default {
   name: 'App',
   components: {
-    About,
+    NavComponent,
     Header
   }
 }
