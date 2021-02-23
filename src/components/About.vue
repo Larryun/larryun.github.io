@@ -1,7 +1,7 @@
 <template>
   <b-container fluid class="">
     <b-row class="justify-content-center">
-      <b-col md="8">
+      <b-col sm="8" md="5">
         <div class="content fs-4">
           <div class="pt-3 text-center display-3">
             Hi there!

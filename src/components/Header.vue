@@ -19,11 +19,11 @@
       </b-col>
     </b-row>
     <b-row class="row justify-content-center pt-3">
-      <b-col sm="5" md="8" lg="3">
+      <b-col sm="8" md="5">
         <ul class="nav bg-light bg-light justify-content-center rounded-1">
-          <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="">Projects</a></li>
           <li class="nav-item"><a class="nav-link" href="">Resume</a></li>
-          <li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="">About</a></li>
         </ul>
       </b-col>
     </b-row>
