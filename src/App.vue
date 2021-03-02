@@ -3,7 +3,7 @@
     <b-container fluid>
       <b-row class="justify-content-center">
           <Header></Header>
-        <b-col sm="8" md="8" lg="7" xl="5">
+        <b-col sm="12" md="9" lg="7" xl="5">
           <NavComponent></NavComponent>
           <router-view></router-view>
 <!--          <About></About>-->

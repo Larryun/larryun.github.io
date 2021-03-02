@@ -19,3 +19,25 @@ p.paragraph{
 .md-font {
     font-size: 1.25rem;
 }
+
+.text-indent-1 {
+    text-indent: 1rem;
+}
+
+.text-indent-2 {
+    text-indent: 1.5rem;
+}
+
+.text-indent-3 {
+    text-indent: 2rem;
+}
+
+.link-disabled{
+    color: currentColor;
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+html {
+  overflow-y: scroll;
+}

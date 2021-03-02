@@ -1,6 +1,8 @@
 <template>
   <div>
+    <div class="pt-3">
       <slot name="header"></slot>
+    </div>
     <slot name="body"></slot>
   </div>
 

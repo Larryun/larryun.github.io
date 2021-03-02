@@ -3,7 +3,7 @@
     <b-row class="justify-content-center bg-dark">
       <b-col class="text-center text-white">
         <p class="m-0" id="my_name">Larry Un</p>
-        <i class="">Student at UC Berkeley majoring in Comptuer Science</i>
+        <i class="">Student at UC Berkeley majoring in Computer Science</i>
         <ul class="list-inline m-3">
           <li class="list-inline-item">
             <a class="icon-link" href="https://linkedin.com/in/larryun">
