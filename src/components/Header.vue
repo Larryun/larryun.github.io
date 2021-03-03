@@ -15,6 +15,11 @@
               <i class="fab fa-github fa-3x"></i>
             </a>
           </li>
+          <li class="list-inline-item">
+            <a class="icon-link" href="mailto:larryun@berkeley.edu">
+              <i class="fa fa-envelope fa-3x"></i>
+            </a>
+          </li>
         </ul>
       </b-col>
     </b-row>

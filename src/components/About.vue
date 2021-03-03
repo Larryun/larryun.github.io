@@ -18,7 +18,8 @@
                 <b>Larry</b> likes to make websites and learn a lot of stuff!
               </p>
               <p class="paragraph">
-                <b>Larry</b> is currently studying Computer Science at University of California, Berkeley, graduating in
+                <b>Larry</b> is an international student from <b style="color: #067662;">Macau</b>, currently studying
+                Computer Science at University of California, Berkeley and graduating in
                 Spring 2022! Also, I am actively seeking software engineering internship in Summer 2021, hoping to put my ideas and
                 skills into good use!
               </p>

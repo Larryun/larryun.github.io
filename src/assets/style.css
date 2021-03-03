@@ -16,6 +16,12 @@ p.paragraph{
     font-size: 1.5rem;
 }
 
+ul.paragraph{
+    text-align: left;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
 .md-font {
     font-size: 1.25rem;
 }
@@ -38,6 +44,15 @@ p.paragraph{
     cursor: not-allowed;
 }
 
+.border-bottom-thick {
+    border-bottom: 5px solid;
+}
+
 html {
   overflow-y: scroll;
+}
+
+.table_content_button {
+    width: 100%;
+    /*background-color: white!important;*/
 }

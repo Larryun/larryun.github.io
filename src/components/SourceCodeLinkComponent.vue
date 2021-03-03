@@ -1,13 +1,13 @@
 <template>
-  <div class="pb-2">
+  <div class="m-2 p-2">
     <template v-if="disabled">
-      <a class="link-disabled" :id='"disabled-tooltip-target-" + id'>Github</a>
+      <a class="link-disabled h3" target="_blank" :id='"disabled-tooltip-target-" + id'>{{text}}</a>
       <b-tooltip :target='"disabled-tooltip-target-" + id' triggers="hover">
         {{ tooltipText }}
       </b-tooltip>
     </template>
     <template v-else>
-      <a href="">Github</a>
+      <a :href="href" target="_blank" class="h3">{{text}}</a>
     </template>
   </div>
 </template>
@@ -17,12 +17,10 @@ export default {
   name: "SourceCodeLinkComponent",
   props: {
     "id": {
-      type: Number,
-      required: true,
     },
     "disabled": {
       type: Boolean,
-      required: true,
+      default: false,
     },
     "tooltipText": {
       type: String,
@@ -31,7 +29,12 @@ export default {
     },
     "href": {
       type: String,
+    },
+    "text": {
+      type: String,
+      required: true
     }
+
   }
 
 }

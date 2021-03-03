@@ -14,7 +14,6 @@
         Interest: <b>Computer Security</b>, <b>Computer Networking</b>, <b>Machine Learning</b>
         and <b>Biking</b>.
       </p>
-
     </template>
   </ParagraphComponent>
 </template>
