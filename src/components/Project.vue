@@ -104,7 +104,7 @@
           Demonstrations
         </div>
         <p class="paragraph">
-          Provide a email address and select courses to receive notifications about.
+          Provide an email address and select courses to receive notifications about.
           <br>
           Opt-in example:
         </p>

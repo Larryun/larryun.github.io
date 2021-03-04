@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import About from "../components/About";
 import Home from "../components/Home";
 import Project from "../components/Project";
+import Resume from "../components/Resume";
 
 Vue.use(Router)
 
@@ -22,6 +23,11 @@ export default new Router({
       path: '/projects',
       name: 'Project',
       component: Project
+    },
+    {
+      path: '/resume',
+      name: 'Resume',
+      component: Resume
     }
   ]
 })
