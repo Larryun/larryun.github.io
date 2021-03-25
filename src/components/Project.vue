@@ -235,9 +235,9 @@
           abstract class <b>GameObject</b>. My role was coding the game logics, structures and physics.
         </p>
 
-        <button @click="openImg('planet_defenders_uml.png')">
+        <a class="img-btn" @click="openImg('planet_defenders_uml.png')">
           <img src="../assets/img/planet_defenders_uml.png" class="img-fluid">
-        </button>
+        </a>
         <i>The UML diagram that includes all classes and custom libraries. (Click to see more)</i>
 
 
